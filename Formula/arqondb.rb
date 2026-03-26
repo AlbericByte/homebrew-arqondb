@@ -7,20 +7,20 @@ class Arqondb < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.3/arqondb-0.1.3-darwin-arm64.tar.gz"
-      sha256 "586a20eed0938dfedb646650d08423590c724f551a856ef97158254c9ebbed25"
+      sha256 "f4e0ea95e490a40c4c44db1519d970fd1d0614d32f4f8bfcc2f7029b35766373"
     else
       url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.3/arqondb-0.1.3-darwin-amd64.tar.gz"
-      sha256 "3032c04a3fb8afcee2ca5215e5f15021dfc22b4c0ff64c14e05a5bcbd8c123bb"
+      sha256 "5c3c1d3890ebfda15ee9406397b065ed9a45c75bc20dfab10da8153db8c9db40"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.3/arqondb-0.1.3-linux-arm64.tar.gz"
-      sha256 "069c09844d2200bf0cfe23ac8f412cd9e2769a02fffc8aecb3c3bb0acf5bed15"
+      sha256 "5eeb340671d7f3c20c7965a8a88f3dcd46e2bad2ae161c00c97508997d48b2c2"
     else
       url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.3/arqondb-0.1.3-linux-amd64.tar.gz"
-      sha256 "7eae6ab3ace5ebbfb64a6d31ecb68fcdef9c665acf36fe56f39fbf557eb29079"
+      sha256 "fdc011730854c03a8caff3495018087825b3fff1c055c6d5bc9d05b9466f8a0a"
     end
   end
 
