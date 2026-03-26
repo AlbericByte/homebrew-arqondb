@@ -1,26 +1,26 @@
 class Arqondb < Formula
   desc "Distributed key-value storage engine with LSM-tree, Raft, and vector index"
   homepage "https://github.com/AlbericByte/arqondb"
-  version "0.1.9"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.9/arqondb-0.1.9-darwin-arm64.tar.gz"
-      sha256 "e637f96d0f6d9d5c7d92cd893d1f15dc4cadc7fbc10880ddd3f88eefc1e28b97"
+      url "https://github.com/AlbericByte/arqondb/releases/download/v0.2.0/arqondb-0.2.0-darwin-arm64.tar.gz"
+      sha256 "4fb05b78b3e39624ca3274546bc61232a10c23567710d6705fb5d4fdb96439e9"
     else
-      url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.9/arqondb-0.1.9-darwin-amd64.tar.gz"
-      sha256 "3f08f1efd75ee41cbe5c532a5646669855d193ae6bad125854f145ef9f8a0893"
+      url "https://github.com/AlbericByte/arqondb/releases/download/v0.2.0/arqondb-0.2.0-darwin-amd64.tar.gz"
+      sha256 "6eeeb288ae8ed1b0a69a967c2099c8d759396890ed28a1dad7ad153e8e751ade"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.9/arqondb-0.1.9-linux-arm64.tar.gz"
-      sha256 "d993d34d9ce20980452cddba198878ab994c1dec66f1c6ad249f05b3618c927c"
+      url "https://github.com/AlbericByte/arqondb/releases/download/v0.2.0/arqondb-0.2.0-linux-arm64.tar.gz"
+      sha256 "7018c86515b9381c4e9ef37ebd4a7f892ac644fb4943b9150c1f354f6cb2d902"
     else
-      url "https://github.com/AlbericByte/arqondb/releases/download/v0.1.9/arqondb-0.1.9-linux-amd64.tar.gz"
-      sha256 "29d908770a7d765fe7e078472ab65694c99f1079ffe1b9db9f08dd0ed214956f"
+      url "https://github.com/AlbericByte/arqondb/releases/download/v0.2.0/arqondb-0.2.0-linux-amd64.tar.gz"
+      sha256 "2b2e3d34f640c63341b25f2fdfcc581f00b1965afec418e7419fbe97aff73fdd"
     end
   end
 
